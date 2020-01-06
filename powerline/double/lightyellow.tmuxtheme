@@ -50,7 +50,7 @@ set -gqF @themepack-window-status-format "#{@themepack-window-status-prefix}#{@t
 set -goq @powerline-color-main-1 colour184
 set -goq @powerline-color-main-2 colour184
 set -goq @powerline-color-main-3 colour229
-set -goq @powerline-color-black-1 black
+set -goq @powerline-color-black-1 colour16
 set -goq @powerline-color-grey-1 colour241
 set -goq @powerline-color-grey-2 colour238
 set -goq @powerline-color-grey-3 colour238
@@ -113,7 +113,7 @@ set -goqF @theme-window-status-activity-bg "#{@theme-status-bg}"
 set -goqF @theme-window-status-activity-fg "#{@powerline-color-activity-1}"
 set -goq  @theme-window-status-separator ""
 set -goqF @theme-window-status-current-bg "#{@powerline-color-grey-2}"
-set -goqF @theme-window-status-current-fg "#{@powerline-color-black-1}"
+set -goqF @theme-window-status-current-fg "#{@powerline-color-grey-4}"
 set -goqF @theme-window-status-format "  #{@themepack-window-status-format}  "
 set -goqF @theme-window-status-current-format "#[fg=#{@theme-status-bg},bg=#{@theme-window-status-current-bg}]#[fg=#{@theme-window-status-current-fg},nobold] #{@themepack-window-status-current-format} #[fg=#{@theme-status-bg},bg=#{@theme-window-status-current-bg},nobold]"
 
